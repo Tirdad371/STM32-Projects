@@ -1,0 +1,22 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+
+# Compiler output
+*.o
+*.d
+*.elf
+*.map
+*.list
+*.su
+*.cyclo
+
+# Keil
+Objects/
+Listings/
+*.axf
+*.uvguix.*
+
+# Misc
+.vscode/
+*.bak
