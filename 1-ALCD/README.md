@@ -7,7 +7,7 @@ mode with plain GPIO, so no special peripheral is required.
 Compatible with and tested on both **STM32CubeIDE** and **Keil uVision 5**
 (Arm Compiler 6).
 
-![Hardware setup](images/setup.jpg)
+![Hardware setup](images/Setup.jpg)
 
 ## Hardware
 
