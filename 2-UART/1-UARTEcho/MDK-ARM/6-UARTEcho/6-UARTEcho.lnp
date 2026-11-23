@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"6-uartecho\startup_stm32f407xx.o"
+"6-uartecho\main.o"
+"6-uartecho\gpio.o"
+"6-uartecho\usart.o"
+"6-uartecho\stm32f4xx_it.o"
+"6-uartecho\stm32f4xx_hal_msp.o"
+"6-uartecho\stm32f4xx_hal_uart.o"
+"6-uartecho\stm32f4xx_hal_rcc.o"
+"6-uartecho\stm32f4xx_hal_rcc_ex.o"
+"6-uartecho\stm32f4xx_hal_flash.o"
+"6-uartecho\stm32f4xx_hal_flash_ex.o"
+"6-uartecho\stm32f4xx_hal_flash_ramfunc.o"
+"6-uartecho\stm32f4xx_hal_gpio.o"
+"6-uartecho\stm32f4xx_hal_dma_ex.o"
+"6-uartecho\stm32f4xx_hal_dma.o"
+"6-uartecho\stm32f4xx_hal_pwr.o"
+"6-uartecho\stm32f4xx_hal_pwr_ex.o"
+"6-uartecho\stm32f4xx_hal_cortex.o"
+"6-uartecho\stm32f4xx_hal.o"
+"6-uartecho\stm32f4xx_hal_exti.o"
+"6-uartecho\system_stm32f4xx.o"
+--strict --scatter "6-UARTEcho\6-UARTEcho.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "6-UARTEcho.map" -o 6-UARTEcho\6-UARTEcho.axf

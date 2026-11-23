@@ -11,11 +11,20 @@ Release/
 *.su
 *.cyclo
 
-# Keil
-Objects/
-Listings/
-*.axf
-*.uvguix.*
+
+# Keil build output
+*.crf
+*.dep
+*.lst
+*.htm
+*.hex
+*.sct
+*.tra
+*.iex
+*.uvoptx
+MDK-ARM/*/
+!MDK-ARM/RTE/
+!MDK-ARM/DebugConfig/
 
 # Misc
 .vscode/
